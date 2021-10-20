@@ -1,4 +1,9 @@
 .header{
     text-decoration: none;
     margin: 20px;
+    color: white;
+    
+}
+.head{
+    background-color: rgb(71, 71, 68);
 }

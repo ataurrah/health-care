@@ -1,9 +1,11 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import notfound from './Page-not-found.png'
 const Notfound = () => {
     return (
         <div>
-          <h2 className='danger'>404 this page is not avilable right now</h2>  
+         <div> <img src={notfound} alt="" /> </div>
+          <Link to ='/'><button className='my-3'>Go Back</button></Link>
         </div>
     );
 };
