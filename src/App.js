@@ -5,12 +5,15 @@ import Home from './component/home/Home';
 import Service from './component/service/Service';
 import About from './component/about/About';
 import Contract from './component/contract/Contract';
-import Footer from './component/footer/Footer';
+
 import Notfound from './component/notfound/Notfound';
 import Registation from './component/registation/Registation';
 import Login from './component/login/Login';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './component/PrivateRoute/PrivateRoute';
+import Details from './component/details/Details';
+
+import Footer from './component/footer/Footer';
 
 function App() {
   return (
@@ -28,9 +31,13 @@ function App() {
    <PrivateRoute path='/service'>
      <Service></Service>
      </PrivateRoute>
-   <Route path='/about'>
+   <PrivateRoute path='/about'>
      <About></About>
-   </Route>
+   </PrivateRoute>
+
+   <PrivateRoute exact  path="/details/:id">
+            <Details></Details>
+          </PrivateRoute>
    <Route path='/contract'>
      <Contract></Contract>
    </Route>
