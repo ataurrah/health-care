@@ -3,7 +3,7 @@ import './footer.css'
 const Footer = () => {
     return (
         <div>
-            <div className=" footer">
+            <div className=" footer py-2">
 <div className="container">
   <div className="row ">
     <div className="col-lg-5 col-xs-12 about-company">
@@ -19,10 +19,10 @@ const Footer = () => {
     <div className="col-lg-3 col-xs-12 links">
       <h4 className="mt-lg-0 mt-sm-3 text-center">FOLLOW US</h4>
         <ul className="m-0 p-0 text-center list ">
-         <a  className='mx-3 link' href="/">Email</a>
-           <a  className='mx-3 link' href="/">FACEBOOK</a>
-           <a  className='mx-3 link' href="/">INSTRAGRAM</a>
-          <a  className='mx-3 link' href="/">TWITTER</a>
+         <a  className='mx-3 link' href="https://mail.google.com/mail/u/0/#inbox">Email</a>
+           <a  className='mx-3 link' href="https://www.facebook.com/profile.php?id=100006844984015">FACEBOOK</a>
+           <a  className='mx-3 link' href="https://www.instagram.com/">INSTRAGRAM</a>
+          
         </ul>
     </div>
     <div className="col-lg-4 text-center col-xs-12 location">
